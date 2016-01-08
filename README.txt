@@ -1,6 +1,6 @@
-4.1.6.RELEASE  http://www.mkyong.com/spring/spring-embedded-database-examples/
+4.1.6.RELEASE  
 
-EmbeddedDB 사용법
+EmbeddedDB 사용법 http://www.mkyong.com/spring/spring-embedded-database-examples/
 JUNIT
 
 ## Spring xml로 사용할 경우
