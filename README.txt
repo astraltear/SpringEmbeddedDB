@@ -1,7 +1,10 @@
 4.1.6.RELEASE  
 
 EmbeddedDB 사용법 http://www.mkyong.com/spring/spring-embedded-database-examples/
-JUNIT
+JUNIT의 다양한 사용법 
+JAVA SPRING CONFIG
+jackson
+XML spring-oxm
 HSQL, H2
 Pojomatic
 mybatis @MapperScan Transaction
@@ -44,3 +47,7 @@ mybatis @MapperScan Transaction
 	REPEATABLE_READ : 다른 트랜잭션이 Commit하지 않은 데이터를 읽을 수 없다. 한 트랙잭션 내에서 동일 객체를 여러 번 조회할 때 다른 값을 읽을 수 있다. (Non-RepeatableRead) 대부분의 데이터베이스에서 기본으로 지원하는 격리 수준이다.
 	NOT_SUPPORTED : 다른 트랜잭션이 Commit하지 않은 데이터를 읽을 수 없다. 한 트랜잭션 내에서 동일 객체를 여러 번 조회할 때 항상 같은 값을 읽는 것을 보장한다. (RepeatableRead)
 	SERIALIZABLE : 가장 높은 격리 수준으로, 어떠한 간섭도 허용하지 않는다. 잠금/해제로 인한 비용이 많이 들지만 신뢰할 만한 격리 수준을 제공한다.
+	
+## JUNIT test 순서 변경
+	@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+	@Controller 테스트 
